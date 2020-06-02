@@ -1,4 +1,4 @@
-from deep_fried_func import *
+import deep_fried_meme as dfm
 import cv2
 from matplotlib import pyplot as plt
 import numpy as np
@@ -10,5 +10,5 @@ plt.subplot(121)
 plt.imshow(img_obj)
 
 plt.subplot(122)
-plt.imshow(RGB_deep_fry(img_obj, bright_coeff = (2, 0), gaussian_blur = (3, 3), satuartion_mod = 5, noise_type = 'gauss'))
+plt.imshow(dfm.RGB_deep_fry(img_obj, bright_coeff = (2, 0), gaussian_blur = (3, 3), satuartion_mod = 5, noise_type = 'gauss'))
 plt.show()

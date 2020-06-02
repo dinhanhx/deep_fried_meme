@@ -1,6 +1,5 @@
 import cv2
 import numpy as np
-from matplotlib import pyplot as plt
 
 def RGB_mod_bright(img_obj, coeff = (1, 0)):
     a = coeff[0]
