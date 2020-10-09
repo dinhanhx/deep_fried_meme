@@ -81,5 +81,5 @@ def RGB_deep_fry(img_obj, bright_coeff = (1, 0), gaussian_blur = (7, 7), satuart
     img_obj_ = noisy(img_obj_, noise_type)
     img_obj_ = np.multiply(img_obj_, 255)
     img_obj_ = img_obj_.astype('int')
-    
+
     return img_obj_
