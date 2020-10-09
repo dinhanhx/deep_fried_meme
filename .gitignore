@@ -1,2 +1,8 @@
-*.pyc
+# Ignore folders
+venv
 __pycache__
+.pytest_cache
+
+# Ignore files
+*.bat
+*.pyc
