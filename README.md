@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/dinhanhx/deep_fried_meme.svg?branch=master)](https://travis-ci.org/dinhanhx/deep_fried_meme)
 # Deep fried meme
 
 A Python package to make deep fried memes.
